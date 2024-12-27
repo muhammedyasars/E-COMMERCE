@@ -1,0 +1,149 @@
+body {
+  background-color: #f7fafc; 
+  font-family: 'Arial', sans-serif;
+}
+
+.table-container {
+  background-color: #f9fafb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow-x: auto;
+  padding: 1.5rem;
+}
+
+.table {
+  min-width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px 20px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+.table thead {
+  background-color: #edf2f7;
+}
+
+.table tbody tr {
+  transition: background-color 0.3s;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.table .button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-block {
+  background-color: #e53e3e; 
+  color: #fff;
+}
+
+.button-unblock {
+  background-color: #48bb78; 
+  color: #fff;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button-block:hover {
+  background-color: #c53030;
+}
+
+.button-unblock:hover {
+  background-color: #38a169;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow-y: auto; 
+  overflow-x: auto; 
+}
+
+
+.modal-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 15px;
+}
+
+
+.modal-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #aaa;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.modal-close-btn:hover {
+  color: #333;
+}
+
+
+.modal-body p {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.modal-footer {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.modal-footer button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  background-color: #3182ce; 
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.modal-footer button:hover {
+  background-color: #2b6cb0;
+}
+
+.modal-content p, .modal-content ul, .modal-content li {
+  word-wrap: break-word;
+}
+
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+}

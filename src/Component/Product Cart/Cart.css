@@ -1,0 +1,105 @@
+/* General Baby Theme */
+.baby-theme {
+  background-image: url("https://t3.ftcdn.net/jpg/05/08/85/64/360_F_508856428_JbdSJL9FHvDv5ChIeZsJrNe7VRa4YFdG.jpg"); /* Replace with your space image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 30px 0;
+  color: #5c4185;
+  font-family: "Comic Sans MS", "Baloo Bhai", cursive;
+}
+
+.baby-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff6f91;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.baby-total {
+  font-size: 1.2rem;
+  color: #ff758c;
+}
+
+.baby-buy-btn {
+  background-color: #ff9aa2;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.baby-buy-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  background-color: #ffdde1;
+}
+
+.baby-card {
+  border-radius: 20px;
+  background-color: rgba(255, 228, 225, 0.9); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.baby-card-title {
+  color: #ff6f91;
+  font-weight: bold;
+  text-align: center;
+}
+
+.baby-price {
+  color: #ff758c;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.baby-btn {
+  background-color: #ffdde1;
+  border: none;
+  color: #ff6f91;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 0 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.baby-btn:hover {
+  background-color: #ffc1cc;
+}
+
+.baby-remove-btn {
+  background-color: #ff858d;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.baby-remove-btn:hover {
+  background-color: #ff525d;
+}
+
+.baby-total-item {
+  color: #5c4185;
+  font-weight: bold;
+}
+
+.baby-empty-cart {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ff6f91;
+}
+
+.baby-items .row {
+  justify-content: center;
+}
+
+.baby-items .col-md-3 {
+  padding: 15px;
+}

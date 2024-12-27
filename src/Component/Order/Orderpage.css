@@ -1,0 +1,55 @@
+.orders-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6c5b7b;
+  }
+  
+  .order-card {
+    background: linear-gradient(145deg, #ffecd1, #d3bba7);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px #c9a895, -8px -8px 16px #ffe7cb;
+    transition: transform 0.3s ease;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .order-title {
+    font-size: 1.2rem;
+    color: #8e4a49;
+    font-weight: bold;
+  }
+  
+  .order-amount {
+    font-size: 1rem;
+  }
+  
+  .order-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #bcb8a9;
+  }
+  
+  .order-product-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4e342e;
+  }
+  
+  .order-price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #8e4a49;
+  }
+  
+  .container {
+    background-color: #fef8f1;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #d3c1ab, -10px -10px 20px #fff4df;
+  }
+  

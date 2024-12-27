@@ -1,0 +1,95 @@
+/* Categories Bar Container */
+.bar {
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.button{
+    background-color: #75204e;
+}
+
+.categories-bar-baby {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+    padding: 15px 0;
+    background: linear-gradient(to bottom, #ffe6e6, #fff2f2); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-bottom: 2px solid #ffd1d1; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+  }
+  
+  .category-btn-baby {
+    background: linear-gradient(145deg, #fff, #ffe6e6); 
+    border: none;
+    color: #ff6f61; 
+    padding: 12px 25px;
+    margin: 0 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1), -2px -2px 6px rgba(255, 255, 255, 0.8);
+  }
+  
+  .category-btn-baby:hover {
+    background: linear-gradient(145deg, #ffe6e6, #ffffff); 
+    transform: scale(1.05); 
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2), -2px -2px 8px rgba(255, 255, 255, 0.9);
+  }
+  
+  .category-btn-baby:focus {
+    outline: none;
+    background: linear-gradient(145deg, #ffcccc, #ffe6e6); 
+    transform: translateY(1px); 
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.8);
+  }
+  
+  .category-btn-baby {
+    animation: pop-in 0.5s ease-in-out;
+  }
+  
+  @keyframes pop-in {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .categories-bar-baby {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    background: #f0f8ff; 
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .category-btn-baby {
+    background: #ffb6c1; 
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .category-btn-baby:hover {
+    background: #ff69b4; 
+  }
+  
+  .category-btn-baby.active {
+    background: #ff1493; 
+    font-weight: bold;
+  }
+  kls{
+    color: #92d1d3;
+  }
+  
+  

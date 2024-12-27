@@ -1,0 +1,73 @@
+/* Page Background */
+.registration-page {
+    background: url("https://t3.ftcdn.net/jpg/05/08/85/64/360_F_508856428_JbdSJL9FHvDv5ChIeZsJrNe7VRa4YFdG.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .registration-container {
+    background: rgba(255, 250, 250, 0.95);
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .registration-container:hover {
+    transform: translateY(0);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .baby-title {
+    color: #FF6F61;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: 2px 2px #FFD1D1;
+  }
+  
+  .baby-label {
+    color: #FF6F61;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .baby-input {
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #FFB3B3;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .baby-input:focus {
+    outline: none;
+    border: 2px solid #FF6F61;
+    box-shadow: 0 0 10px rgba(255, 111, 97, 0.5);
+  }
+  
+  .baby-btn {
+    background: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .baby-btn:hover {
+    background: #FF4C4C;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+  }
+  
+  .text-danger {
+    font-size: 12px;
+    font-style: italic;
+  }
+  

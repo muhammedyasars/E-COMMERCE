@@ -1,0 +1,16 @@
+/* Page Background */
+.products-page {
+    background: url("your-background-image.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    padding: 20px;
+  }
+.active-category-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ff69b4; 
+  margin-bottom: 1rem;
+  text-transform: capitalize; 
+}
+.container{
+  margin-top: 20px;
+}  

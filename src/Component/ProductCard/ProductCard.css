@@ -1,0 +1,83 @@
+/* Card Container */
+.baby{
+  text-decoration: none;
+}
+
+.baby:hover{
+  text-decoration: none;
+  color: white;
+}
+.baby-card {
+    background: #fffbf5;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .baby-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .baby-card-img {
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .baby-card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .baby-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-bottom: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .baby-card-description {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 36px; 
+  }
+  
+  .baby-card-category {
+    font-size: 12px;
+    color: #77dd77;
+    margin-bottom: 5px;
+  }
+  
+  .baby-card-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffa41b;
+    margin-bottom: 10px;
+  }
+  
+  .baby-card-btn {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  .baby-card-btn:hover {
+    background: #ff4c4c;
+    box-shadow: 0 5px 10px rgba(255, 76, 76, 0.3);
+  }
+  
